@@ -16,6 +16,8 @@ function getAreaOfCircle(radius) {
 
     return areaCalculation;
 }
+let areaOfCircle = getAreaOfCircle(30);
+console.log(`The area of your circle is: ${areaOfCircle}`);
 
 /*
 Write a function named getCircumferenceOfCircle. 
@@ -26,7 +28,8 @@ Formula to find circumference of a circle: C = 2πr
 */
 
 function getCircumferenceOfCircle(radius) {return 2 * Math.PI * radius;}
-
+let circumferenceOfCircle = getCircumferenceOfCircle(25);
+console.log(`The circumference of your circle is: ${circumferenceOfCircle}`);
 /*
 Write a function named getAreaOfSquare. 
 It takes a side parameter. 
@@ -36,6 +39,8 @@ Formula to find area of a square: A = a^2
 */
 
 function getAreaOfSquare(side) {return squareNumber(side);}
+let areaOfSquare = getAreaOfSquare(5);
+console.log(`The area of your square is: ${areaOfSquare}`);
 
 /*
 Write a function named getAreaOfTriangle. 
@@ -51,3 +56,6 @@ function getAreaOfTriangle(base, height) {
 
     return result;
 }
+
+let areaOfTriangele = getAreaOfTriangle(20, 20);
+console.log(`The area of your triangle is: ${areaOfTriangele}`);
