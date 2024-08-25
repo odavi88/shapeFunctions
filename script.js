@@ -24,3 +24,13 @@ Formula to find circumference of a circle: C = 2πr
 */
 
 function getCircumferenceOfCircle(radius) {return 2 * Math.PI * radius;}
+
+/*
+Write a function named getAreaOfSquare. 
+It takes a side parameter. 
+It calculates and returns the area of a square with that side length.
+
+Formula to find area of a square: A = a^2
+*/
+
+function getAreaOfSquare(side) {return squareNumber(side);}
